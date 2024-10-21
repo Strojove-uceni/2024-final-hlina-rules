@@ -4,3 +4,4 @@
 *   *Include working demo in Colab, in which you clearly demonstrate your results. Please refer to the Implementation section on the [labs website](https://su2.utia.cas.cz/labs.html#projects).*
 *   *Do not upload huge datasets to GitHub repository.*
 
+*The  goal of our project is to develop a model capable of early anomaly detection during 3D print.*
