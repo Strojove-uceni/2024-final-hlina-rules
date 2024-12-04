@@ -1,0 +1,14 @@
+# Ignore datasets
+caxton_dataset/
+caxton_dataset_small/
+caxton24_/
+# Ignore Python cache files and directories
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore IDE or editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
