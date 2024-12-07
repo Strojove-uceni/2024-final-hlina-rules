@@ -1,7 +1,11 @@
+
 # Ignore datasets
 caxton_dataset/
 caxton_dataset_small/
 caxton24_/
+caxton24_59/
+caxton60_/
+
 # Ignore Python cache files and directories
 __pycache__/
 *.py[cod]
