@@ -18,3 +18,7 @@ Vycházíme z předpokladu, že správnost pozice vstřikovací trysky, rychlost
 **Trénovací data** 
 
 Při trénování našich modelů jsme použili dataset sestavený Brionem a Pattinsonem (Brion, D., & Pattinson, S. (2022). Data set for “Generalisable 3D printing error detection and correction via multi-head neural networks”. Apollo - University of Cambridge Repository. https://doi.org/10.17863/CAM.84082). Dataset se skládá z 1,272,273 anotovaných fotografií pořízených kamerami umístěnými na trysce 3D tiskárny. Kamera zachycuje pohyb trysky, její pozici vůči výrobku a aplikaci filamentu v reálném čase s frekvení 2,5 Hz. Celkem je takto zaznamenán tisk 192 komponentů různých tvarů, barev a za různých světelných podmínek na osmi různých tiskárnách. Anotace každé fotografie obsahuje klasifikaci pozice trysky, množství, rychlosti a teploty vstřikovaného filamentu. Veličiny jsou klasifikovány jako 'too low', 'good' nebo 'too high'. 
+
+**Stručný popis použitých arhitektur**
+
+* 
