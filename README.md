@@ -16,9 +16,7 @@ Vycházíme z předpokladu, že správnost pozice vstřikovací trysky, rychlost
 Při trénování našich modelů jsme použili dataset sestavený Brionem a Pattinsonem (Brion, D., & Pattinson, S. (2022). Data set for “Generalisable 3D printing error detection and correction via multi-head neural networks”. Apollo - University of Cambridge Repository. https://doi.org/10.17863/CAM.84082). Dataset se skládá z 1,272,273 anotovaných fotografií pořízených kamerami umístěnými na trysce 3D tiskárny. Kamera zachycuje pohyb trysky, její pozici vůči výrobku a aplikaci filamentu v reálném čase s frekvení 2,5 Hz. Celkem je takto zaznamenán tisk 192 komponentů různých tvarů, barev a za různých světelných podmínek na osmi různých tiskárnách. Anotace každé fotografie obsahuje klasifikaci pozice trysky, množství, rychlosti a teploty vstřikovaného filamentu. Veličiny jsou klasifikovány jako 'low', 'good' nebo 'high'. Součástí anotace jsou také souřadnice pixelu, který představuje hrot vstřikovací trysky.  
 
 _Příklad obrázku z používaného datasetu_
-![Alt text](image-986.jpg)
-
-
+![Alt text](image-986.jpg = 250x250)
 V rámci prepocessingu jsou jednotlivé fotografie náhodně zrotovány, obráceny a jsou změněny a upraven jejich jas, kontrast, saturace a odstíny. Každá fotografie je navíc oříznuta do velikosti 320x320 pixelů se souřadnicovým středem v hrotu trysky. Před vstupem do konvoluční sítě je ještě aplikováno další náhodné oříznutí a resize, které fotografii transformují na obrázek o rozměrech 224x224 pixelů. Takto upravené fotografie již slouží jako vstup do úvodních konvolučních vrstev všech námi trénovaných modelů.
 
 **Stručný popis použitých architektur**
