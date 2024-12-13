@@ -1,10 +1,6 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/rMTkWhxv)
-*Reminder*
-*   *Do not miss [deadline](https://su2.utia.cas.cz/labs.html#projects) for uploading your implementation and documentation of your final project.*
-*   *Include working demo in Colab, in which you clearly demonstrate your results. Please refer to the Implementation section on the [labs website](https://su2.utia.cas.cz/labs.html#projects).*
-*   *Do not upload huge datasets to GitHub repository.*
 
-* **Detekce anomálií při 3D tisku v reálném čase** *
+
+ **Detekce anomálií při 3D tisku v reálném čase** 
 
  **Úvod do problematiky** 
 
@@ -19,7 +15,7 @@ Vycházíme z předpokladu, že správnost pozice vstřikovací trysky, rychlost
 
 Při trénování našich modelů jsme použili dataset sestavený Brionem a Pattinsonem (Brion, D., & Pattinson, S. (2022). Data set for “Generalisable 3D printing error detection and correction via multi-head neural networks”. Apollo - University of Cambridge Repository. https://doi.org/10.17863/CAM.84082). Dataset se skládá z 1,272,273 anotovaných fotografií pořízených kamerami umístěnými na trysce 3D tiskárny. Kamera zachycuje pohyb trysky, její pozici vůči výrobku a aplikaci filamentu v reálném čase s frekvení 2,5 Hz. Celkem je takto zaznamenán tisk 192 komponentů různých tvarů, barev a za různých světelných podmínek na osmi různých tiskárnách. Anotace každé fotografie obsahuje klasifikaci pozice trysky, množství, rychlosti a teploty vstřikovaného filamentu. Veličiny jsou klasifikovány jako 'low', 'good' nebo 'high'. Součástí anotace jsou také souřadnice pixelu, který představuje hrot vstřikovací trysky.  
 
-Příklad obrázku z používaného datasetu
+_Příklad obrázku z používaného datasetu_
 ![Alt text](image-986.jpg)
 
 
